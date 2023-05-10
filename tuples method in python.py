@@ -1,0 +1,15 @@
+countries = ("spain", "italy", "india", "England", "nepal")
+temp = list(countries)
+temp.append("Russia")
+temp.pop(3)
+temp[2] = "finland"
+countries = tuple(temp)
+print(countries)
+
+tuple1 = (0,1,2,3,4,31,1,3,2,3)
+res = tuple1.count(3)
+res = tuple1.index(3)
+# res = tuple1.index(311)
+res = tuple1.index(3,4,8)
+res = len(tuple1)
+print('count of 3 in tuple1 is:',res)

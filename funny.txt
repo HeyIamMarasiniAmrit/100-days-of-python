@@ -1,0 +1,8 @@
+I Love pythonI Love C++I Love php
+guess_type(url, strict=True)
+Similar to the guess_type() function, using the tables stored as part of the object.
+
+guess_all_extensions(type, strict=True)
+Similar to the guess_all_extensions() function, using the tables stored as part of the object.
+
+read(filename, strict=True)

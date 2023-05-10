@@ -1,0 +1,2 @@
+import amrit
+amrit.welcome()
